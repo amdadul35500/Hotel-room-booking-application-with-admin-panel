@@ -26,7 +26,7 @@ mongoose.connection.on("disconnected", () => {
 
 app.use(
   cors({
-    origin: "https://amazone-frontend-steel.vercel.app",
+    origin: "https://hotel-booking-rose.vercel.app",
     methods: ["POST", "GET", "PUT"],
     credentials: true,
   })
