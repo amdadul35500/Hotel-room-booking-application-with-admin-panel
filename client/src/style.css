@@ -1,0 +1,172 @@
+ .navContainer{
+    padding: 20px;
+ }
+
+ 
+ @media only screen and (max-width:500px) {
+   .header{
+      width: 100%;
+   }
+   .headerList{
+      width: 100%;
+      justify-content: space-around;
+      gap: 0px;
+   } 
+   .headerListItem-f-r{
+      display: none;
+   }
+   .headerListItem.active{
+      padding: 6px;
+   }
+   .headerTitle{
+      padding: 0 20px;
+      font-size: 20px;
+   }
+   .headerDesc{
+      padding: 0 20px;
+   }
+   .headerSearch{
+      
+      display: block;
+      border: none;
+      height: auto;
+      padding: 0;
+      bottom: -150px;
+   }
+   .headerBtn{
+      padding: 5px;
+   }
+   .headerSearchItem-f-r{
+      width: 53px;
+   }
+   .homeContainer{
+      margin-top: 45%;
+   }
+   .headerSearchItem{
+      border: 3px solid #febb02;
+      border-radius: 5px;
+      margin: 20px 20px;
+      background-color: white;
+      padding: 4px;
+   }
+   .featured{
+      display: block;
+   }
+   .featuredItem{
+      height: 200px;
+      padding: 10px 20px;
+   }
+   .featuredImg{
+      border-radius: 10px;
+   } 
+   .featuredTitles{
+      padding: 10px;
+   }
+   
+   .featuredTitles h1{
+      font-size: 26px;
+   }
+   .featuredTitles h2{
+      font-size: 22px;
+   }
+   .rdrCalendarWrapper{
+      top: 48% !important;
+    width: 85% !important;
+   }
+   .options{
+      top: 70% !important;
+      left: 6% !important;
+   } 
+   .pList{
+      display: none;
+   }
+   .fp{
+      display: none;
+   }
+   .homeTitle{
+      display: none;
+   }
+   .mail{
+      margin-top: 0;
+      padding: 30px 0;
+   }
+   .mail h1{
+      font-size: 28px;
+    width: 100%;
+    text-align: center;
+   }
+   .mail span{
+      width: 100%;
+      text-align: center;
+   }
+   .mailInputContainer{
+      width: 100%;
+      text-align: center;
+   }
+   .mailInputContainer>input{
+      width: 85%;
+      height: 17px;
+      margin: 20px 20px
+   }
+   .mailInputContainer>button{
+      padding: 10px;
+      height: 40px;
+   }
+   .footer{
+      width: 100%;
+      margin-top: 25px;
+   }
+   .fLists {
+      margin-bottom: 20px;
+   }
+   .listWrapper{
+      display: block;
+   }
+   .listContainer{
+      display: block;
+   }
+   .searchItem{
+      display: block;
+   }
+   .siImg{
+      width: 100%;
+   }
+   .siDetails{
+      align-items: self-start;
+      padding: 10px;
+      margin-top: 8px;
+   }
+   .siDetailTexts{
+      align-items: start;
+   }
+   .fText{
+      margin-left: 10px;
+    margin-bottom: 20px;
+   }
+   .hotelContainer{
+      padding: 10px;
+   }
+   .sliderImg{
+      width: 100%;
+    height: auto;
+   }
+   .arrow{
+      margin: 10px;
+      font-size: 40px;
+   }
+   .bookNow{
+      display: none;
+   }
+   .hotelDetails{
+      display: block;
+   }
+   .hotelDetailsTexts{
+      padding: 10px;
+   } 
+   .hotelDetailsPrice{
+      padding: 10px;
+      margin-top: 15px;
+      margin-bottom: 25px;
+   }
+ }
+
