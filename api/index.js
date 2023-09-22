@@ -24,9 +24,16 @@ mongoose.connection.on("disconnected", () => {
   console.log("MongoDB Disconnected!");
 });
 
+app.use(
+  cors({
+    origin: "https://amazone-frontend-steel.vercel.app",
+    methods: ["POST", "GET", "PUT"],
+    credentials: true,
+  })
+);
+
 // middleware
 app.use(cookieParser());
-app.use(cors());
 app.use(express.json());
 
 app.use("/api/auth", authRouter);

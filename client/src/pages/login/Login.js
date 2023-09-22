@@ -4,6 +4,7 @@ import { useState, useContext } from "react";
 import { AuthContext } from "../../context/AuthContextProvider";
 import { useNavigate } from "react-router-dom";
 import { useLocation } from "react-router-dom";
+import { base_url } from "../../base_url";
 
 const Login = () => {
   const [credentials, setCredentials] = useState({
@@ -25,7 +26,7 @@ const Login = () => {
     e.preventDefault();
     dispatch({ type: "LIGIN_START" });
     try {
-      const res = await axios.post("/auth/login", credentials);
+      const res = await axios.post(`${base_url}/auth/login`, credentials);
       dispatch({ type: "LOGIN_SUCCESS", payload: res.data.details });
       if (prevUrl) {
         navigate(prevUrl);

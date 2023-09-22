@@ -2,10 +2,11 @@ import axios from "axios";
 import { useEffect } from "react";
 import useFetch from "../../hooks/useFatch.js";
 import "./featured.css";
+import { base_url } from "../../base_url.js";
 
 const Featured = () => {
   const { data, loading, error } = useFetch(
-    "/hotels/countByCity?cities=dhaka,sylhet,chittagong"
+    `${base_url}/hotels/countByCity?cities=dhaka,sylhet,chittagong`
   );
 
   return (

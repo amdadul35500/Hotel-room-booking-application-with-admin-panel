@@ -1,8 +1,11 @@
+import { base_url } from "../../base_url.js";
 import useFetch from "../../hooks/useFatch.js";
 import "./featuredProperties.css";
 
 const FeaturedProperties = () => {
-  const { data, loading, error } = useFetch("/hotels?featured=true&limit=5");
+  const { data, loading, error } = useFetch(
+    `${base_url}/hotels?featured=true&limit=5`
+  );
 
   return (
     <div className="fp">
