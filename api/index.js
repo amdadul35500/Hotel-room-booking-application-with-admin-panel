@@ -53,6 +53,11 @@ app.use((err, req, res, next) => {
   });
 });
 
+app.get("*", (req, res) => {
+  res.json({page: "home"});
+});
+
+
 app.listen(process.env.PORT, () => {
   connect();
   console.log("Connect to Backend on " + process.env.PORT);
