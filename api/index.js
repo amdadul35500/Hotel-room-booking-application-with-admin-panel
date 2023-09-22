@@ -24,13 +24,7 @@ mongoose.connection.on("disconnected", () => {
   console.log("MongoDB Disconnected!");
 });
 
-app.use(
-  cors({
-    origin: "https://hotel-booking-frontend-nbx5.onrender.com, https://hotel-booking-rose.vercel.app",
-    methods: ["POST", "GET", "PUT"],
-    credentials: true,
-  })
-);
+app.use(cors());
 
 // middleware
 app.use(cookieParser());
