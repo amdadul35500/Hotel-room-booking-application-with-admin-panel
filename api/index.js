@@ -47,7 +47,7 @@ app.use((err, req, res, next) => {
   });
 });
 
-app.get("*", (req, res) => {
+app.get("/", (req, res) => {
   res.json({page: "home"});
 });
 
