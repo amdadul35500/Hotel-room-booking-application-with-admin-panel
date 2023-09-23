@@ -169,5 +169,11 @@
   .rdrMonth {
     width: auto;
 }
+  .fList-f-r{
+   display: none;
  }
+  .fLists{
+   justify-content: space-around;
+  }
+  }
 
