@@ -43,7 +43,7 @@ const Register = () => {
           id="email"
           onChange={handleChange}
           className="lInput"
-          size="40"
+          size="30"
         />
         <input
           type="text"
@@ -51,7 +51,7 @@ const Register = () => {
           id="username"
           onChange={handleChange}
           className="lInput"
-          size="40"
+          size="30"
         />
         <input
           type="text"
@@ -59,7 +59,7 @@ const Register = () => {
           id="country"
           onChange={handleChange}
           className="lInput"
-          size="40"
+          size="30"
         />
         <input
           type="text"
@@ -67,7 +67,7 @@ const Register = () => {
           id="city"
           onChange={handleChange}
           className="lInput"
-          size="40"
+          size="30"
         />
         <input
           type="number"
@@ -75,7 +75,7 @@ const Register = () => {
           id="phone"
           onChange={handleChange}
           className="lInput"
-          size="40"
+          size="30"
         />
         <input
           type="password"
@@ -83,7 +83,7 @@ const Register = () => {
           id="password"
           onChange={handleChange}
           className="lInput"
-          size="40"
+          size="30"
         />
 
         <button disabled={loading} className="lButton" onClick={handleClick}>
