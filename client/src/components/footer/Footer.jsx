@@ -20,7 +20,7 @@ const Footer = () => {
           <li className="fListItem">Hostels</li>
           <li className="fListItem">Guest houses</li>
         </ul>
-        <ul className="fList">
+        <ul className="fList fList-f-r">
           <li className="fListItem">Unique places to stay </li>
           <li className="fListItem">Reviews</li>
           <li className="fListItem">Unpacked: Travel articles </li>
@@ -28,12 +28,12 @@ const Footer = () => {
           <li className="fListItem">Seasonal and holiday deals </li>
         </ul>
         <ul className="fList">
-          <li className="fListItem">Car rental </li>
+          <li className="fListItem fList-f-r">Car rental </li>
           <li className="fListItem">Flight Finder</li>
           <li className="fListItem">Restaurant reservations </li>
           <li className="fListItem">Travel Agents </li>
         </ul>
-        <ul className="fList">
+        <ul className="fList fList-f-r">
           <li className="fListItem">Curtomer Service</li>
           <li className="fListItem">Partner Help</li>
           <li className="fListItem">Careers</li>
