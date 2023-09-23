@@ -91,13 +91,11 @@
       padding: 30px 0;
    }
    .mail h1{
-      font-size: 28px;
-    width: 100%;
+    font-size: 28px;
     text-align: center;
    }
    .mail span{
-      width: 100%;
-      text-align: center;
+     text-align: center;
    }
    .mailInputContainer{
       width: 100%;
@@ -106,11 +104,11 @@
    .mailInputContainer>input{
       width: 85%;
       height: 17px;
-      margin: 20px 20px
    }
    .mailInputContainer>button{
       padding: 10px;
       height: 40px;
+      margin-top: 15px
    }
    .footer{
       width: 100%;
@@ -168,5 +166,8 @@
       margin-top: 15px;
       margin-bottom: 25px;
    }
+  .rdrMonth {
+    width: auto;
+}
  }
 
